@@ -93,5 +93,4 @@ Afhankelijk van het volwassenheidsniveau wordt er meer gelogd. Voor de hogere ni
 
 Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a), of dat er specifiek aangegeven kan worden welke features in een dataset gebruikt zijn (2b).
 
-
 ---
