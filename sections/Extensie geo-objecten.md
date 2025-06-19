@@ -1,4 +1,4 @@
-# Extensie (geo)objecten
+## Extensie (geo)objecten
 
 Het loggen van (geo)objecten is een bijzonder ruim en daarmee flexibel onderwerp. Er zijn zeer veel mogelijke scenario's, afhankelijk van de gebruikte data,
 het type analyse of algoritme en het gewenste volwassenheidsniveau.
