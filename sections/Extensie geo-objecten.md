@@ -51,9 +51,9 @@ Dit sluit goed aan op het abstractieniveau van wat we willen loggen met Logboek 
 
 Afhankelijk van het gekozen niveau wordt er alleen gelogd op het niveau van het Dataproduct (niveau 1), Op het niveau van de datasets (of tabellen) en eventueel de features (rijen in de tabellen) (niveau 2), of zelfs de attributen en de waarden binnen de features (niveau 3).
 
-```json
+```
 dpl.objects.algorithm_id
-dpl.objects.dataproduct_id
+dpl.objects.dataproduct_id 
 dpl.objects.dataset [
     dataset_id
     dataset_def
@@ -62,35 +62,36 @@ dpl.objects.dataset [
         feature_id
         feature_def
         feature_port
-
+    
         feature_attribute [
             attribute_name
             attribute_value
             attribute_def
         ]
-    ]
+    ]   
 ]
-```json
+```
 
 | attribute | Niveau |beschrijving |
 |---|---|---|
-|dpl.objects.algorithm_id | 1 | verwijzing naar het register van het betreffende algoritme. uri naar uniek identificeerbaar algoritme|
+|dpl.objects.algorithm_id | 1 | verwijzing naar het register van het betreffende algoritme. uri naar uniek identificeerbaar algoritme| 
 |dpl.objects.dataproduct_id  | 1 | uri naar een catalogus met de dataproduct metadata |
-|dpl.objects.dataset | 2a | lijst met datasets (input en/of output van het dataproduct) |
+|dpl.objects.dataset | 2a | lijst met datasets (input en/of output van het dataproduct) | 
 |   dataset_id | 2a | unieke id van de dataset |
 |   dataset_def | 2a | uri naar de definitie/metadata van de dataset (catalog_record/dcat_ap_nl) |
 |   dataset_port | 2a | input/output dataset, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden |
-|   feature | 2b | lijst met features: |
-|     feature_id | 2b | unieke id van het feature|
+|   feature | 2b | lijst met features: | 
+|     feature_id | 2b | unieke id van het feature| 
 |     feature_def | 2b | uri naar een definitie van het feature|
 |     feature_port | 2b | input/output feature, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden|
 |   feature_attribute | 3 | lijst van attributen van het feature |
 |     attribute_name | 3 | unieke identifier van het attribuut |
-|     attribute_value | 3 | waarde van het attribuut in de specifieke verwerking / logregel |
+|     attribute_value | 3 | waarde van het attribuut in de specifieke verwerking / logregel | 
 |     attribute_def | 3 | verwijzing naar de metadata van het attribuut |
 
 Afhankelijk van het volwassenheidsniveau wordt er meer gelogd. Voor de hogere niveaus geldt dat de gegevens van het lagere niveau ook gelogd worden.
 
 Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a), of dat er specifiek aangegeven kan worden welke features in een dataset gebruikt zijn (2b).
+
 
 ---
