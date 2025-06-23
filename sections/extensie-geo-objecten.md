@@ -10,7 +10,7 @@ Dit document is een conceptversie voor een extensie voor Objecten.S De extensie 
 
 ## Doel en nut
 
-De logboek Datavwerwerkingen standaard specificeert hoe het verwerken van gegevens van personen en niet-natuurlijke personen gedaan moet worden.
+De logboek Dataverwerkingen standaard specificeert hoe het verwerken van gegevens van personen en niet-natuurlijke personen gedaan moet worden.
 Er zijn diverse scenario's waarbij het wenselijk is om wel logging toe te passen, maar waar geen sprake is van persoonsgegevens. Of waar aanvullend aan perssonsgegevens ook gegevens over objecten gelogd dienen te worden.
 
 Deze extensie beschrijft hoe dit geimplementeerd kan worden.
@@ -31,7 +31,7 @@ naar het logboek mee te implementeren.
 De OTLP standaard kent een aantal categorieën om telemetrie vast te leggen. Voor de Logboek dataverwerkingen standaard wordt de [traces](https://opentelemetry.io/docs/concepts/signals/traces/) categorie gebruikt.
 Op het 'hoogste' niveau kent de standaard ook nog het concept [resource](https://opentelemetry.io/docs/concepts/resources/).
 
-Bij het opzetten van een logboek dataverwerkingen interface kan er dus informatie op het niveau van resource vastgelegd worden. Dit is typisch informatie over het systeem waar de betreffende logging vandaan komt.
+Bij het opzetten van een Logboek Dataverwerkingen interface kan er dus informatie op het niveau van resource vastgelegd worden. Dit is typisch informatie over het systeem waar de betreffende logging vandaan komt.
 
 De traces zijn vervolgens de individuele verwerkingen die door het betreffende systeem gedaan worden.
 
@@ -42,8 +42,7 @@ De traces zijn vervolgens de individuele verwerkingen die door het betreffende s
 
 Overeenkomstig de Opentelemetry specificatie.
 
-Elk individueel Dataproduct/proces krijgt een eigen naam en id. Dus als er meerdere algoritmes/processen op een server zijn geimplementeerd moet de ```service.name``` op het niveau van
-het individuele product/proces geinstantieerd worden.
+Elk individueel Dataproduct/proces krijgt een eigen naam en id. Dus als er meerdere algoritmes/processen op een server zijn geimplementeerd moet de ```service.name``` op het niveau van het individuele product/proces geinstantieerd worden.
 
 ### Trace
 
@@ -101,8 +100,8 @@ Afhankelijk van het volwassenheidsniveau wordt er meer gelogd. Voor de hogere ni
 Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a), of dat er specifiek aangegeven kan worden welke features in een dataset gebruikt zijn (2b).
 
 <aside class='note'>
-Er is expliciet gekozen voor de naamgeving dpl.objects.algorithm_id om een duidelijk onderscheid te maken met dpl.core.processing_activity_id.
-processing_activity_id is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. Algorithm_id is altijd de verwerking naar een register specifiek voor data verwerkingen.
+Er is expliciet gekozen voor de naamgeving dpl.objects.algorithm_id om een duidelijk onderscheid te maken met ```dpl.core.processing_activity_id```.
+```processing_activity_id``` is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. ```Algorithm_id``` is altijd de verwerking naar een register specifiek voor data verwerkingen.
 Dit kan het algoritme register zijn, maar zou ook een ander register kunnen zijn.
 </aside>
 
@@ -121,10 +120,10 @@ In dit geval wordt alleen de dpl.objects namespace gebruikt op het gewenste deta
 
 Bijvoorbeeld: Maaidata analyse, remote sensing beelden analyseren of percelen wel/niet gemaaid zijn​.
 
-In dit geval wordt alleen de data_subject_id uit de core namespace gebruikt in combinatie met de dpl.objects namespace op het gewenste detailniveau.
+In dit geval wordt alleen de ```data_subject_id``` uit de core namespace gebruikt in combinatie met de ```dpl.objects``` namespace op het gewenste detailniveau.
 
 ### Verwerking van objectgegevens in combinatie met persoonsgegevens
 
 Bijvoorbeeld: Aanvraag kapvergunning​
 
-In dit geval wordt zowel de core namespace gebruikt voor de verwijzing naar een verwerkingsregister en de dpl.objects namespace met een verwijzing naar een algoritme en andere relevante gegevens.
+In dit geval wordt zowel de core namespace gebruikt voor de verwijzing naar een verwerkingsregister en de ```dpl.objects``` namespace met een verwijzing naar een algoritme en andere relevante gegevens.
