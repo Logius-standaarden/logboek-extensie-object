@@ -30,8 +30,10 @@ De traces zijn vervolgens de individuele verwerkingen die door het betreffende s
 
 ### Resource
 
-```service.name``` = Logical name of the service
-```service.instance.id``` = The string ID of the service instance
+```
+service.name = Logical name of the service
+service.instance.id = The string ID of the service instance
+```
 
 Overeenkomstig de Opentelemetry specificatie.
 
