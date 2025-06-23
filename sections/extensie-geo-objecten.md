@@ -4,10 +4,6 @@ De overheid wil voor burgers en bedrijven zo transparant mogelijk zijn in de omg
 
 Deze extensie beschrijft de technische specificaties hoe de Logboek Dataverwerkingen standaard kan worden toegepast voor het loggen van objectgegevens.
 
-<aside class='note'>
-Dit document is een conceptversie voor een extensie voor Objecten.S De extensie is dus niet vastgesteld en niet direct bruikbaar als standaard.
-</aside>
-
 ## Doel en nut
 
 De logboek Dataverwerkingen standaard specificeert hoe het verwerken van gegevens van personen en niet-natuurlijke personen gedaan moet worden.
