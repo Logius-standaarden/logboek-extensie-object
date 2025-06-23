@@ -94,9 +94,11 @@ Afhankelijk van het detailniveau wordt er gedetailleerder gelogd. Voor de hogere
 Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a), of dat er specifiek aangegeven kan worden welke features in een dataset gebruikt zijn (2b).
 
 <aside class='note'>
-Er is expliciet gekozen voor de naamgeving dpl.objects.algorithm_id om een duidelijk onderscheid te maken met ```dpl.core.processing_activity_id```.
-```processing_activity_id``` is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. ```Algorithm_id``` is altijd de verwerking naar een register specifiek voor data verwerkingen.
+
+Er is expliciet gekozen voor de naamgeving `dpl.objects.algorithm_id` om een duidelijk onderscheid te maken met `dpl.core.processing_activity_id`.
+`processing_activity_id` is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. `algorithm_id` is altijd de verwerking naar een register specifiek voor data verwerkingen.
 Dit kan het algoritme register zijn, maar zou ook een ander register kunnen zijn.
+
 </aside>
 
 ## Gebruiksscenario's
