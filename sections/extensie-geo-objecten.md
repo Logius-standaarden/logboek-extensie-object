@@ -37,7 +37,7 @@ service.instance.id = The string ID of the service instance
 
 Overeenkomstig de Opentelemetry specificatie.
 
-Elk individueel Dataproduct/proces krijgt een eigen naam en id. Dus als er meerdere algoritmes/processen op een server zijn geimplementeerd moet de ```service.name``` op het niveau van het individuele product/proces geinstantieerd worden.
+Elk individueel Dataproduct/proces krijgt een eigen naam en id. Dus als er meerdere algoritmes/processen op een server zijn geïmplementeerd moet de `service.name` op het niveau van het individuele product/proces geïnstantieerd worden.
 
 ### Trace
 
