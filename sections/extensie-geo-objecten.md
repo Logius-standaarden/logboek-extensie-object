@@ -122,4 +122,4 @@ In dit geval wordt alleen de ```data_subject_id``` uit de core namespace gebruik
 
 Bijvoorbeeld: Aanvraag kapvergunning​
 
-In dit geval wordt zowel de core namespace gebruikt voor de verwijzing naar een verwerkingsregister en de ```dpl.objects``` namespace met een verwijzing naar een algoritme en andere relevante gegevens.
+In dit geval wordt zowel de core namespace gebruikt voor de verwijzing naar een verwerkingsregister en de `dpl.objects` namespace met een verwijzing naar een algoritme en andere relevante gegevens.
