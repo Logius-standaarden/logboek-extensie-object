@@ -60,7 +60,7 @@ Dit sluit goed aan op het abstractieniveau van wat we willen loggen met Logboek 
 Afhankelijk van het gekozen niveau wordt er alleen gelogd op het niveau van het Dataproduct (niveau 1), Op het niveau van de datasets (of tabellen) en eventueel de features (rijen in de tabellen) (niveau 2), of zelfs de attributen en de waarden binnen de features (niveau 3).
 
 <pre class="nohighlight"><code>dpl.objects.algorithm_id
-dpl.objects.dataproduct_id 
+dpl.objects.dataproduct_id
 dpl.objects.dataset [
     dataset_id
     dataset_def
@@ -75,7 +75,7 @@ dpl.objects.dataset [
             attribute_value
             attribute_def
         ]
-    ]   
+    ]
 ]
 </code></pre>
 
