@@ -12,8 +12,7 @@ Deze extensie beschrijft hoe dit geimplementeerd kan worden.
 
 ## Extensie (geo)objecten
 
-Het loggen van (geo)objecten is een bijzonder ruim en daarmee flexibel onderwerp. Er zijn zeer veel mogelijke scenario's, afhankelijk van de gebruikte data,
-het type analyse of algoritme en het gewenste volwassenheidsniveau.
+Het loggen van (geo)objecten is een bijzonder ruim en daarmee flexibel onderwerp. Er zijn zeer veel mogelijke scenario's, afhankelijk van de gebruikte data, het type analyse of algoritme en het gewenste detailniveau.
 
 We nemen een paar uitgangspunten op om de scope te verduidelijken.
 
