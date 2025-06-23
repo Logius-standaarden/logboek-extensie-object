@@ -19,8 +19,7 @@ We nemen een paar uitgangspunten op om de scope te verduidelijken.
 1. Input/output poorten conform het idee van 'Dataproducten' als uitgangspunt voor de afbakening van het proces wat wordt gelogd.
 2. API specificatie van een proces (als het goed is gelijk aan 1.)
 
-In de Logboek dataverwerkingen standaard wordt de OTLP standaard aanbevolen om de [interface](https://logius-standaarden.github.io/logboek-dataverwerkingen/#interface)
-naar het logboek mee te implementeren.
+In de Logboek dataverwerkingen standaard wordt de OTLP standaard aanbevolen om de [interface](https://logius-standaarden.github.io/logboek-dataverwerkingen/#interface) naar het logboek mee te implementeren.
 
 De OTLP standaard kent een aantal categorieën om telemetrie vast te leggen. Voor de Logboek dataverwerkingen standaard wordt de [traces](https://opentelemetry.io/docs/concepts/signals/traces/) categorie gebruikt.
 Op het 'hoogste' niveau kent de standaard ook nog het concept [resource](https://opentelemetry.io/docs/concepts/resources/).
