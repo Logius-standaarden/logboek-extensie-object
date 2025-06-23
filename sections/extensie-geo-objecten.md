@@ -8,7 +8,6 @@ Deze extensie beschrijft de technische specificaties hoe de Logboek Dataverwerki
 
 De logboek Dataverwerkingen standaard specificeert hoe het verwerken van gegevens van personen en niet-natuurlijke personen gedaan moet worden.
 Er zijn diverse scenario's waarbij het wenselijk is om wel logging toe te passen, maar waar geen sprake is van persoonsgegevens. Of waar aanvullend aan persoonsgegevens ook gegevens over objecten gelogd dienen te worden.
-
 Deze extensie beschrijft hoe dit geimplementeerd kan worden.
 
 ## Extensie (geo)objecten
