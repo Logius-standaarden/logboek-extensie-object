@@ -101,7 +101,6 @@ Afhankelijk van het volwassenheidsniveau wordt er meer gelogd. Voor de hogere ni
 
 Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a), of dat er specifiek aangegeven kan worden welke features in een dataset gebruikt zijn (2b).
 
-
 <aside class='note'>
 Er is expliciet gekozen voor de naamgeving dpl.objects.algorithm_id om een duidelijk onderscheid te maken met dpl.core.processing_activity_id.
 processing_activity_id is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. Algorithm_id is altijd de verwerking naar een register specifiek voor data verwerkingen.
@@ -119,13 +118,11 @@ Bijvoorbeeld: Remote Sensing gebiedsclassificatie op basis van AI beeldherkennin
 In dit geval wordt alleen de dpl.objects namespace gebruikt op het gewenste detailniveau.
 ```data_subject_id``` en ```processing_activity_id``` uit de core namespace worden niet gebruikt.
 
-
 ### Verwerking van objectgegevens met een relatie naar een persoonsgegeven
 
 Bijvoorbeeld: Maaidata analyse, remote sensing beelden analyseren of percelen wel/niet gemaaid zijn​.
 
 In dit geval wordt alleen de data_subject_id uit de core namespace gebruikt in combinatie met de dpl.objects namespace op het gewenste detailniveau.
-
 
 ### Verwerking van objectgegevens in combinatie met persoonsgegevens
 
