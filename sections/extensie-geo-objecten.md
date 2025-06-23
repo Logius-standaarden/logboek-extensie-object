@@ -108,7 +108,7 @@ In dit kopstuk worden de verschillende use cases van de extensie beschreven.
 Bijvoorbeeld: Remote Sensing gebiedsclassificatie op basis van AI beeldherkenning.
 
 In dit geval wordt alleen de dpl.objects namespace gebruikt op het gewenste detailniveau.
-```data_subject_id``` en ```processing_activity_id``` uit de core namespace worden niet gebruikt.
+`data_subject_id` en `processing_activity_id` uit de core namespace worden niet gebruikt.
 
 ### Verwerking van objectgegevens met een relatie naar een persoonsgegeven
 
