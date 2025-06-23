@@ -5,15 +5,6 @@ het type analyse of algoritme en het gewenste volwassenheidsniveau.
 
 We nemen een paar uitgangspunten op om de scope te verduidelijken.
 
-<aside class="note">
-
-Deze uitgangspunten moeten nog getoetst worden in de praktijk.
-
-De kans is groot dat theorie en praktijk uit elkaar blijven lopen. Bijvoorbeeld voor wat betreft het abstractieniveau waarop een algoritme in een algoritmeregister is
-beschreven en de daadwerkelijke implementatie in een systeem en de (technische) mogelijkheiden om logging te implementeren.
-
-</aside>
-
 1. Input/output poorten conform het idee van 'Dataproducten' als uitgangspunt voor de afbakening van het proces wat wordt gelogd.
 2. API specificatie van een proces (als het goed is gelijk aan 1.)
 
