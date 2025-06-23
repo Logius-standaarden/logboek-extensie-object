@@ -43,7 +43,7 @@ Elk individueel Dataproduct/proces krijgt een eigen naam en id. Dus als er meerd
 
 Voor het loggen van gegevens binnen een trace maken we gebruik van het idee van 'Dataproducten' zoals die in de [DPROD](https://ekgf.github.io/dprod/) ontologie gepositioneerd worden.
 
-Definitie van een [Dataproduct](https://ekgf.github.io/dprod/#dataproductshape) volgens [DPROD](https://ekgf.github.io/dprod/):
+Definitie van een [Dataproduct](https://ekgf.github.io/dprod/#dataproductshape):
 *A rational, managed, and governed collection of data, with purpose, value and ownership, meeting consumer needs over a planned life-cycle. A data product may have input and output ports, code and metadata.*
 
 Open Data Mesh beschrijft een [dataproduct](https://dpds.opendatamesh.org/concepts/data-product/) als:
