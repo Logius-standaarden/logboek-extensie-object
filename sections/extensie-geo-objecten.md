@@ -18,6 +18,7 @@ We nemen een paar uitgangspunten op om de scope te verduidelijken.
 
 1. Input/output poorten conform het idee van 'Dataproducten' als uitgangspunt voor de afbakening van het proces wat wordt gelogd.
 2. API specificatie van een proces (als het goed is gelijk aan 1.)
+3. Voor het loggen van gegevens binnen een trace maken we gebruik van het idee van 'Dataproducten' zoals die in de [DPROD](https://ekgf.github.io/dprod/) ontologie gepositioneerd worden.
 
 In de Logboek dataverwerkingen standaard wordt de OTLP standaard aanbevolen om de [interface](https://logius-standaarden.github.io/logboek-dataverwerkingen/#interface) naar het logboek mee te implementeren.
 
@@ -40,8 +41,6 @@ Overeenkomstig de Opentelemetry specificatie.
 Elk individueel Dataproduct/proces krijgt een eigen naam en id. Dus als er meerdere algoritmes/processen op een server zijn geïmplementeerd moet de `service.name` op het niveau van het individuele product/proces geïnstantieerd worden.
 
 ### Trace
-
-Voor het loggen van gegevens binnen een trace maken we gebruik van het idee van 'Dataproducten' zoals die in de [DPROD](https://ekgf.github.io/dprod/) ontologie gepositioneerd worden.
 
 Definitie van een [Dataproduct](https://ekgf.github.io/dprod/#dataproductshape):
 *A rational, managed, and governed collection of data, with purpose, value and ownership, meeting consumer needs over a planned life-cycle. A data product may have input and output ports, code and metadata.*
