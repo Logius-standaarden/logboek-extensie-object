@@ -89,7 +89,7 @@ dpl.objects.dataset [
 |     attribute_value | 3 | waarde van het attribuut in de specifieke verwerking / logregel |
 |     attribute_def | 3 | verwijzing naar de metadata van het attribuut |
 
-Afhankelijk van het volwassenheidsniveau wordt er meer gelogd. Voor de hogere niveaus geldt dat de gegevens van het lagere niveau ook gelogd worden.
+Afhankelijk van het detailniveau wordt er gedetailleerder gelogd. Voor de hogere niveaus geldt dat de gegevens van het lagere niveau ook gelogd worden.
 
 Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a), of dat er specifiek aangegeven kan worden welke features in een dataset gebruikt zijn (2b).
 
