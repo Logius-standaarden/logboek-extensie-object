@@ -82,19 +82,19 @@ dpl.objects.dataset [
 
 | attribute | Niveau |beschrijving |
 |---|---|---|
-|dpl.objects.algorithm_id | 1 | verwijzing naar het register van het betreffende algoritme. uri naar uniek identificeerbaar algoritme| 
+|dpl.objects.algorithm_id | 1 | verwijzing naar het register van het betreffende algoritme. uri naar uniek identificeerbaar algoritme|
 |dpl.objects.dataproduct_id  | 1 | uri naar een catalogus met de dataproduct metadata |
-|dpl.objects.dataset | 2a | lijst met datasets (input en/of output van het dataproduct) | 
+|dpl.objects.dataset | 2a | lijst met datasets (input en/of output van het dataproduct) |
 |   dataset_id | 2a | unieke id van de dataset |
 |   dataset_def | 2a | uri naar de definitie/metadata van de dataset (catalog_record/dcat_ap_nl) |
 |   dataset_port | 2a | input/output dataset, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden |
-|   feature | 2b | lijst met features: | 
-|     feature_id | 2b | unieke id van het feature| 
+|   feature | 2b | lijst met features: |
+|     feature_id | 2b | unieke id van het feature|
 |     feature_def | 2b | uri naar een definitie van het feature|
 |     feature_port | 2b | input/output feature, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden|
 |   feature_attribute | 3 | lijst van attributen van het feature |
 |     attribute_name | 3 | unieke identifier van het attribuut |
-|     attribute_value | 3 | waarde van het attribuut in de specifieke verwerking / logregel | 
+|     attribute_value | 3 | waarde van het attribuut in de specifieke verwerking / logregel |
 |     attribute_def | 3 | verwijzing naar de metadata van het attribuut |
 
 Afhankelijk van het volwassenheidsniveau wordt er meer gelogd. Voor de hogere niveaus geldt dat de gegevens van het lagere niveau ook gelogd worden.
@@ -104,7 +104,7 @@ Voor niveau 2 (kolomniveau) geldt dat er op gehele dataset gelogd kan worden (2a
 
 <aside class='note'>
 Er is expliciet gekozen voor de naamgeving dpl.objects.algorithm_id om een duidelijk onderscheid te maken met dpl.core.processing_activity_id.
-processing_activity_id is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. Algorithm_id is altijd de verwerking naar een register specifiek voor data verwerkingen. 
+processing_activity_id is altijd een verwijzing naar een verwerkingsregister van persoonsgegevens. Algorithm_id is altijd de verwerking naar een register specifiek voor data verwerkingen.
 Dit kan het algoritme register zijn, maar zou ook een ander register kunnen zijn.
 </aside>
 
@@ -116,8 +116,8 @@ In dit kopstuk worden de verschillende use cases van de extensie beschreven.
 
 Bijvoorbeeld: Remote Sensing gebiedsclassificatie op basis van AI beeldherkenning.
 
-In dit geval wordt alleen de dpl.objects namespace gebruikt op het gewenste detailniveau. 
-data_subject_id en processing_activity_id uit de core namespace worden niet gebruikt.
+In dit geval wordt alleen de dpl.objects namespace gebruikt op het gewenste detailniveau.
+```data_subject_id``` en ```processing_activity_id``` uit de core namespace worden niet gebruikt.
 
 
 ### Verwerking van objectgegevens met een relatie naar een persoonsgegeven
@@ -127,9 +127,8 @@ Bijvoorbeeld: Maaidata analyse, remote sensing beelden analyseren of percelen we
 In dit geval wordt alleen de data_subject_id uit de core namespace gebruikt in combinatie met de dpl.objects namespace op het gewenste detailniveau.
 
 
-### Verwerking van objectgegevens in combinatie met persoonsgegevens 
+### Verwerking van objectgegevens in combinatie met persoonsgegevens
 
 Bijvoorbeeld: Aanvraag kapvergunning​
 
-In dit geval wordt zowel de core namespace gebruikt voor de verwijzing naar een verwerkingsregister en de dpl.objects namespace met een verwijzing naar een 
-algoritme en andere relevante gegevens.
+In dit geval wordt zowel de core namespace gebruikt voor de verwijzing naar een verwerkingsregister en de dpl.objects namespace met een verwijzing naar een algoritme en andere relevante gegevens.
