@@ -116,7 +116,7 @@ In dit geval wordt alleen de dpl.objects namespace gebruikt op het gewenste deta
 
 Bijvoorbeeld: Maaidata analyse, remote sensing beelden analyseren of percelen wel/niet gemaaid zijn​.
 
-In dit geval wordt alleen de ```data_subject_id``` uit de core namespace gebruikt in combinatie met de ```dpl.objects``` namespace op het gewenste detailniveau.
+In dit geval wordt alleen de `data_subject_id` uit de core namespace gebruikt in combinatie met de `dpl.objects` namespace op het gewenste detailniveau.
 
 ### Verwerking van objectgegevens in combinatie met persoonsgegevens
 
