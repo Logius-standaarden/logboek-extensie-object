@@ -6,7 +6,7 @@ let respecConfig = {
   specStatus: "WV",
   specType: "PR",
   pubDomain: "logboek",
-  shortName: "logboek-extensie-template",
+  shortName: "logboek-extensie-object",
   publishDate: "2025-03-31",
   publishVersion: "0.9",
   prevVersion: [],
@@ -37,7 +37,7 @@ let respecConfig = {
         companyURL: "https://logius.nl",
       },
     ],
-  github: "https://github.com/Logius-standaarden/logboek-extensie-template",
+  github: "https://github.com/Logius-standaarden/logboek-extensie-object",
 
 
   // Create PDF and link to file in header (optional):
