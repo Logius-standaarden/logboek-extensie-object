@@ -6,7 +6,7 @@ let respecConfig = {
   specStatus: "WV",
   specType: "PR",
   pubDomain: "logboek",
-  shortName: "logboek-extensie-object",
+  shortName: "extensie-object",
   publishDate: "2025-03-31",
   publishVersion: "0.9",
   latestVersion: "https://logius-standaarden.github.io/logboek-extensie-object/",
