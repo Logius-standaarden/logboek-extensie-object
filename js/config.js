@@ -28,14 +28,14 @@ let respecConfig = {
   authors:
     [
       {
-        name: "Nil Barua",
-        company: "Logius",
-        companyURL: "https://logius.nl",
+        name: "Frank Terpstra",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
       },
       {
-        name: "Tim van der Lippe",
-        company: "Logius",
-        companyURL: "https://logius.nl",
+        name: "Niels Hoffmann",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
       },
     ],
   github: "https://github.com/Logius-standaarden/logboek-extensie-object",
