@@ -6,9 +6,10 @@ let respecConfig = {
   specStatus: "WV",
   specType: "PR",
   pubDomain: "logboek",
-  shortName: "logboek-extensie-template",
+  shortName: "extensie-object",
   publishDate: "2025-03-31",
   publishVersion: "0.9",
+  latestVersion: "https://logius-standaarden.github.io/logboek-extensie-object/",
   prevVersion: [],
 
   editors:
@@ -27,17 +28,17 @@ let respecConfig = {
   authors:
     [
       {
-        name: "Nil Barua",
-        company: "Logius",
-        companyURL: "https://logius.nl",
+        name: "Frank Terpstra",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
       },
       {
-        name: "Tim van der Lippe",
-        company: "Logius",
-        companyURL: "https://logius.nl",
+        name: "Niels Hoffmann",
+        company: "Geonovum",
+        companyURL: "https://www.geonovum.nl",
       },
     ],
-  github: "https://github.com/Logius-standaarden/logboek-extensie-template",
+  github: "https://github.com/Logius-standaarden/logboek-extensie-object",
 
 
   // Create PDF and link to file in header (optional):
