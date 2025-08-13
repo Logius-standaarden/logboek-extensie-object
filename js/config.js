@@ -9,6 +9,7 @@ let respecConfig = {
   shortName: "logboek-extensie-object",
   publishDate: "2025-03-31",
   publishVersion: "0.9",
+  latestVersion: "https://logius-standaarden.github.io/logboek-extensie-object/",
   prevVersion: [],
 
   editors:
