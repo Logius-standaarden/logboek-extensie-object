@@ -71,22 +71,22 @@ dpl.objects.dataset [
 ]
 </code></pre>
 
-| attribute | Niveau |beschrijving |
-|---|---|---|
-|dpl.objects.algorithm_id | 1 | verwijzing naar het register van het betreffende algoritme. uri naar uniek identificeerbaar algoritme|
-|dpl.objects.dataproduct_id  | 1 | uri naar een catalogus met de dataproduct metadata |
-|dpl.objects.dataset | 2a | lijst met datasets (input en/of output van het dataproduct) |
-|   dataset_id | 2a | unieke id van de dataset |
-|   dataset_def | 2a | uri naar de definitie/metadata van de dataset (catalog_record/dcat_ap_nl) |
-|   dataset_port | 2a | input/output dataset, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden |
-|   feature | 2b | lijst met features: |
-|     feature_id | 2b | unieke id van het feature|
-|     feature_def | 2b | uri naar een definitie van het feature|
-|     feature_port | 2b | input/output feature, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden|
-|   feature_attribute | 3 | lijst van attributen van het feature |
-|     attribute_name | 3 | unieke identifier van het attribuut |
-|     attribute_value | 3 | waarde van het attribuut in de specifieke verwerking / logregel |
-|     attribute_def | 3 | verwijzing naar de metadata van het attribuut |
+| attribute                  | Niveau | beschrijving                                                                                                                         |
+|----------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------|
+| dpl.objects.algorithm_id   | 1      | verwijzing naar het register van het betreffende algoritme. uri naar uniek identificeerbaar algoritme                                |
+| dpl.objects.dataproduct_id | 1      | uri naar een catalogus met de dataproduct metadata                                                                                   |
+| dpl.objects.dataset        | 2a     | lijst met datasets (input en/of output van het dataproduct)                                                                          |
+| dataset_id                 | 2a     | unieke id van de dataset                                                                                                             |
+| dataset_def                | 2a     | uri naar de definitie/metadata van de dataset (catalog_record/dcat_ap_nl)                                                            |
+| dataset_port               | 2a     | input/output dataset, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden |
+| feature                    | 2b     | lijst met features:                                                                                                                  |
+| feature_id                 | 2b     | unieke id van het feature                                                                                                            |
+| feature_def                | 2b     | uri naar een definitie van het feature                                                                                               |
+| feature_port               | 2b     | input/output feature, dit wordt in de log vastgelegd omdat het niet noodzakelijk uit de metadata in de catalogus afgeleid kan worden |
+| feature_attribute          | 3      | lijst van attributen van het feature                                                                                                 |
+| attribute_name             | 3      | unieke identifier van het attribuut                                                                                                  |
+| attribute_value            | 3      | waarde van het attribuut in de specifieke verwerking / logregel                                                                      |
+| attribute_def              | 3      | verwijzing naar de metadata van het attribuut                                                                                        |
 
 Afhankelijk van het detailniveau wordt er gedetailleerder gelogd. Voor de hogere niveaus geldt dat de gegevens van het lagere niveau ook gelogd worden.
 
